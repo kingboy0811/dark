@@ -1,0 +1,29 @@
+.header-container {
+    background-color: $first-color;
+    display: flex;
+    gap: 833px;
+    padding-bottom: 75px;
+    padding-top: 73px;
+    align-items: center;
+
+    .img {
+        width: 176px;
+        height: 52px;
+    }
+
+    .cards {
+        display: flex;
+        list-style: none;
+        margin-top: 17px;
+        gap: 57px;
+
+        .card__link {
+            text-decoration: none;
+            color: $second-color;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}

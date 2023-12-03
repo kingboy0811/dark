@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 80px;
+  max-width: 1440px;
+}
+
+.header-container {
+  background-color: #1B2330;
+  display: flex;
+  gap: 833px;
+  padding-top: 73px;
+}
+.header-container .img {
+  width: 176px;
+  height: 52px;
+}
+.header-container .cards {
+  display: flex;
+  list-style: none;
+  gap: 57px;
+}
+.header-container .cards .card__link {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}/*# sourceMappingURL=main.css.map */
