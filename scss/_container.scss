@@ -1,4 +1,4 @@
-$first-color:#1B2330;
+$first-color: #1B2330;
 $second-color: #FFF;
 
 *,
@@ -10,7 +10,7 @@ $second-color: #FFF;
 }
 
 body {
-    font-family: "Roboto";
+    font-family: 'Roboto', "sans-serif";
 }
 
 .container {
@@ -18,7 +18,3 @@ body {
     padding: 0 80px;
     max-width: 1440px;
 }
-
-
-
-
