@@ -50,6 +50,7 @@ body {
   gap: 36px;
   text-align: center;
   background-image: url(../images/Path\ 2\ \(2\).png);
+  padding-bottom: 158px;
 }
 .boxes-container .left__img {
   width: 720px;
@@ -90,4 +91,40 @@ body {
   padding: 19px 85px;
   background-color: #63E1D9;
   border-radius: 16px;
+}
+
+.hero-container {
+  background-color: #1B2330;
+  padding-top: 158px;
+}
+.hero-container .cards {
+  display: flex;
+  gap: 147px;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+.hero-container .card {
+  width: 349px;
+  height: 215px;
+  text-align: center;
+}
+.hero-container .card__heading {
+  margin-top: 16px;
+  margin-bottom: 9px;
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero-container .card__text {
+  width: 363px;
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
 }/*# sourceMappingURL=main.css.map */
