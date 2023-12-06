@@ -174,4 +174,48 @@ body {
   font-weight: 400;
   line-height: normal;
   text-decoration: none;
+}
+
+.fylo-container {
+  background-color: #181F2B;
+  padding-top: 179px;
+  padding-bottom: 201px;
+}
+.fylo-container .cards {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+.fylo-container .card {
+  padding-top: 40px;
+  padding-bottom: 26px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #202A3C;
+  width: 360px;
+  border-radius: 3.933px;
+  box-shadow: 5px 5px 8px 0px rgba(56, 56, 56, 0.1);
+}
+.fylo-container .card__bottom {
+  margin-top: 24px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.fylo-container .card__text {
+  width: 309.303px;
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+}
+.fylo-container .heading {
+  color: #FFF;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0.5px;
 }/*# sourceMappingURL=main.css.map */

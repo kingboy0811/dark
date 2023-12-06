@@ -1,0 +1,48 @@
+.fylo-container {
+    background-color: $third-color;
+    padding-top: 179px;
+    padding-bottom: 201px;
+
+    .cards {
+        display: flex;
+        list-style: none;
+        gap: 40px;
+    }
+
+    .card {
+        padding-top: 40px;
+        padding-bottom: 26px;
+        padding-left: 25px;
+        padding-right: 25px;
+        background-color: $fifth-color;
+        width: 360px;
+        border-radius: 3.933px;
+        box-shadow: 5px 5px 8px 0px rgba(56, 56, 56, 0.10);
+    }
+
+    .card__bottom {
+        margin-top: 24px;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .card__text {
+        width: 309.303px;
+        color: $second-color;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+    }
+
+    .heading {
+        color: $second-color;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 12px;
+        letter-spacing: 0.5px;
+    }
+}
